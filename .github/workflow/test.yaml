@@ -1,1 +1,15 @@
+name: First_Workflow
+run-name: "${{ github.actor }}'s Last Workflow Run"
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo
+        run: echo "Hello World"
 
