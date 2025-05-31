@@ -1,4 +1,4 @@
-name: Multi-Trigger Example1
+name: Multi-Trigger Example11
 run-name: "${{ github.actor }}'s Example2 Workflow Run"
 
 # Define multiple trigger types
